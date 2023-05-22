@@ -1,0 +1,37 @@
+{
+  "name": "pandas-js",
+  "version": "0.1.0",
+  "description": "A high-level data processing library in Javascript, similar to Pandas in Python",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'test/**/*.test.js'"
+  },
+  "keywords": [
+    "pandas-js",
+    "pandas",
+    "machine-learning",
+    "ai",
+    "chatgpt",
+    "python-pandas",
+    "python",
+    "nodejs",
+    "node",
+    "javascript",
+    "js"
+  ],
+  "author": "Harshit Budhraja",
+  "license": "MIT",
+  "engines": {
+    "node": "18.14.x"
+  },
+  "dependencies": {
+    "csv-parser": "^3.0.0",
+    "csv-write-stream": "^2.0.0",
+    "jsonfile": "^6.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.1.0"
+  }
+}
